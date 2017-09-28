@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle angular-language-service",
+        "command": "angular-language-service:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "angular-language-service",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "angular-language-service:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
